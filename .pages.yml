@@ -1,8 +1,10 @@
 media:
   name: images
   label: Images
-  path: static/images
-  categories: []
+  input: static/images
+  output: /images
+  categories: [image]
+
 content:
   - name: posts
     label: Blog Posts
@@ -10,10 +12,9 @@ content:
     type: collection
     path: content/posts
     view:
-      fields: [title, date, draft]
       primary: title
       sort: date
-      default: descending
+      order: desc
     fields:
       - name: title
         label: Title
