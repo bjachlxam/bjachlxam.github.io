@@ -21,6 +21,7 @@ params:
   description: "Laowang's personal journey into the digital nomad life."
   headerTitle: "The Digital Nomad Way"
   motto: "Work remotely. Live anywhere."
+  avatar: "images/avatar.jpg"
   lightTheme: "emerald"
   darkTheme: "forest"
   siteStartYear: 2026

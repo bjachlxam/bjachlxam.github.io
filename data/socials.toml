@@ -1,0 +1,11 @@
+[[socials]]
+  href = "https://github.com/bjachlxam"
+  title = "GitHub"
+  icon = "logo-github"
+  target = "_blank"
+
+[[socials]]
+  href = "/index.xml"
+  title = "RSS"
+  icon = "logo-rss"
+  target = "_blank"
