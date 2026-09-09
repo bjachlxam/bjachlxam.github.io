@@ -1,0 +1,69 @@
+baseURL: "https://bjachlxam.github.io/"
+title: "The Digital Nomad Way"
+theme: ["PaperMod"]
+languageCode: en
+defaultContentLanguage: en
+
+pagination:
+  pagerSize: 5
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+
+menu:
+  main:
+    - name: Posts
+      url: /posts/
+      weight: 10
+    - name: Archive
+      url: /archives/
+      weight: 20
+    - name: Search
+      url: /search/
+      weight: 30
+    - name: About
+      url: /about/
+      weight: 40
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  author: Laowang
+  description: "Laowang's personal journey into the digital nomad life."
+  defaultTheme: auto
+  ShowShareButtons: false
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  comments: false
+  homeInfoParams:
+    Title: "The Digital Nomad Way"
+    Content: >
+      👋 Hi, I'm **Laowang**. This is where I document my personal journey into
+      the digital nomad life — the wins, the setbacks, and everything I learn
+      along the road.
+  assets:
+    disableHLJS: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: monokai
+    lineNos: true
+    codeFences: true
+    guessSyntax: true

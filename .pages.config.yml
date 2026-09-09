@@ -1,0 +1,39 @@
+media:
+  name: images
+  label: Images
+  path: static/images
+  categories: []
+content:
+  - name: posts
+    label: Blog Posts
+    description: Write a new post. The body supports Markdown; images can be dragged in.
+    type: collection
+    path: content/posts
+    view:
+      fields: [title, date, draft]
+      primary: title
+      sort: date
+      default: descending
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: date
+        label: Publish Date
+        type: date
+      - name: draft
+        label: Draft
+        type: boolean
+        default: false
+        description: Drafts are saved but hidden from the live site.
+      - name: description
+        label: Summary
+        type: text
+        description: A one-sentence summary used in listings and SEO.
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - name: body
+        label: Body
+        type: rich-text
