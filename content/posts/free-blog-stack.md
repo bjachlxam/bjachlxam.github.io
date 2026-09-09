@@ -3,6 +3,7 @@ title: "This Blog Costs $0 to Run — Here's the Exact Setup"
 date: 2026-09-09T18:00:00+08:00
 draft: false
 description: "The full architecture behind this site: Hugo + GitHub Pages + Pages CMS, how the pieces fit together, the two pitfalls I hit while setting it up, and what it can't do."
+cover: /images/free-stack-cover.jpg
 tags:
   - blogging
   - hugo

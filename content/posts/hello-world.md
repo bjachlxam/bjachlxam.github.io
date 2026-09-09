@@ -3,6 +3,7 @@ title: "Hello World: The Road Begins"
 date: 2026-09-09T12:00:00+08:00
 draft: false
 description: "The first post on The Digital Nomad Way — why this blog exists, how it's built, and what comes next."
+cover: /images/hello-world-cover.jpg
 tags:
   - meta
   - digital nomad
