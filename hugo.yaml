@@ -1,7 +1,7 @@
 baseURL: "https://bjachlxam.github.io/"
 title: "The Digital Nomad Way"
 theme: ["PaperMod"]
-languageCode: en
+locale: en
 defaultContentLanguage: en
 
 pagination:
