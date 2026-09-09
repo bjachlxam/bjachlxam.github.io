@@ -57,7 +57,6 @@ No setup is free of trade-offs, and a blog about honest infrastructure should li
 - **Publishing isn't instant**: ~1 minute of build time per post. Irrelevant for humans, but it's not a database-backed CMS.
 - **Writing is Markdown**: the CMS editor is comfortable, but if you want drag-and-drop page layouts (Elementor-style), this isn't that.
 - **Comments and analytics** are DIY: wire up something like giscus (GitHub Discussions as a comment section) or go comment-free, like this blog does for now.
-- **Access from mainland China** is unreliable on `github.io`. The standard fix is a custom domain behind Cloudflare's free CDN — on my list, and it'll get its own post.
 
 ## What it adds up to
 
