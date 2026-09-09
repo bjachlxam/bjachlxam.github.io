@@ -1,11 +1,8 @@
 baseURL: "https://bjachlxam.github.io/"
 title: "The Digital Nomad Way"
-theme: ["PaperMod"]
+theme: ["hugo-theme-dream"]
 locale: en
 defaultContentLanguage: en
-
-pagination:
-  pagerSize: 5
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -13,56 +10,33 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+pagination:
+  pagerSize: 9
+
 minify:
   disableXML: true
 
-menu:
-  main:
-    - name: Posts
-      url: /posts/
-      weight: 10
-    - name: Archive
-      url: /archives/
-      weight: 20
-    - name: Search
-      url: /search/
-      weight: 30
-    - name: About
-      url: /about/
-      weight: 40
-
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON
-
 params:
-  env: production
   author: Laowang
   description: "Laowang's personal journey into the digital nomad life."
-  defaultTheme: auto
-  ShowShareButtons: false
-  ShowReadingTime: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowToc: true
-  comments: false
-  homeInfoParams:
-    Title: "The Digital Nomad Way"
-    Content: >
-      👋 Hi, I'm **Laowang**. This is where I document my personal journey into
-      the digital nomad life — the wins, the setbacks, and everything I learn
-      along the road.
-  assets:
-    disableHLJS: true
+  headerTitle: "The Digital Nomad Way"
+  motto: "Work remotely. Live anywhere."
+  lightTheme: "emerald"
+  darkTheme: "forest"
+  siteStartYear: 2026
+  rss: true
+  stickyNav: true
+  showTableOfContents: true
+  showSummaryCoverInPost: true
+  showPrevNextPost: true
+  customSyntaxHighlighting: true
 
 markup:
   goldmark:
     renderer:
       unsafe: true
   highlight:
+    noClasses: false
     style: monokai
     lineNos: true
     codeFences: true

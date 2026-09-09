@@ -23,7 +23,7 @@ That's this website. It runs on three free services and a GitHub repository, and
 └─────────────┘                 └───────────────┘               └──────────────┘
 ```
 
-- **[Hugo](https://gohugo.io/)** — a static site generator. It turns Markdown files into HTML, thousands of pages per second. No database, no PHP, nothing to hack. The [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme provides search, dark mode, and RSS out of the box.
+- **[Hugo](https://gohugo.io/)** — a static site generator. It turns Markdown files into HTML, thousands of pages per second. No database, no PHP, nothing to hack. The [Dream](https://github.com/g1eny0ung/hugo-theme-dream) theme adds a masonry card layout, dark mode, and built-in search.
 - **[GitHub Pages](https://pages.github.com/)** — free hosting for public repositories. Your site lives at `username.github.io` with HTTPS included.
 - **GitHub Actions** — free CI. On every push, it installs Hugo, builds the site, and publishes the output. I never touch this; it just works.
 - **[Pages CMS](https://pagescms.org/)** — the visual admin panel. A web editor that logs into your GitHub account and commits posts on your behalf, so day-to-day writing needs zero command line. It's open source and can even be self-hosted.
@@ -35,7 +35,7 @@ The key property of this design: **your content is just files in a Git repositor
 The whole setup took an afternoon, most of which was writing content, not configuration:
 
 1. **Create a repository** named `username.github.io` — GitHub serves it as a personal site automatically.
-2. **Scaffold Hugo** (`hugo new site`), add PaperMod as a git submodule, and fill in one config file: title, author, menus, theme options.
+2. **Scaffold Hugo** (`hugo new site`), add the Dream theme as a git submodule, and fill in one config file: title, author, theme options.
 3. **Add a GitHub Actions workflow** that installs Hugo, builds with `hugo --minify`, and deploys `public/` via the official Pages actions. [The exact file is in this site's repo.](https://github.com/bjachlxam/bjachlxam.github.io/blob/main/.github/workflows/hugo.yml)
 4. **Add `.pages.yml`** — a small YAML file at the repo root that tells Pages CMS what a blog post looks like (title, date, draft flag, summary, tags, Markdown body). That's what powers the "Add an entry" button in the admin panel.
 

@@ -30,7 +30,11 @@ content:
       - name: description
         label: Summary
         type: text
-        description: A one-sentence summary used in listings and SEO.
+        description: A one-sentence summary shown on the home page card and used for SEO.
+      - name: cover
+        label: Cover Image
+        type: image
+        description: A landscape image shown on the post card and at the top of the post.
       - name: tags
         label: Tags
         type: string
