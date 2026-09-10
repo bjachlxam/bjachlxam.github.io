@@ -1,14 +1,15 @@
 ---
-title: "Where to Stay in Saigon: La Paix Boutique Hotel, District 1"
+title: "Guest-Friendly Hotel in Saigon: La Paix Boutique Hotel, District 1"
 date: 2026-09-09T20:00:00+07:00
 draft: false
-description: "A boutique hotel in the middle of Saigon's District 1 — walkable to everything, quiet at night, and priced well under the international chains. Here's why it's my default recommendation."
+description: "La Paix Boutique Hotel is a guest-friendly hotel in Ho Chi Minh City's District 1 — invite a guest without joiner-fee drama, walk to everything, and pay well under chain-hotel prices. My honest review."
 cover: /images/la-paix-room.jpg
 categories:
   - Hotel Reviews
 tags:
   - Vietnam
   - Ho Chi Minh City
+  - guest friendly
   - travel
 ---
 
@@ -64,6 +65,27 @@ I'll also give them credit for something rarer: the housekeeping team
 includes hearing-impaired staff, and the hotel clearly makes inclusive
 hiring work. Your money supports a workplace that does a little good, which
 I'm happy about.
+
+## Guest friendly: invite your guests without the drama
+
+Here's the reason this hotel jumped to the front of the series before almost
+anything else about it: **La Paix is a guest-friendly hotel**. In practical
+terms, that means when you invite a Vietnamese friend back to your room, the
+front desk simply registers their ID and life goes on — no "joiner fee"
+ambush, no awkward midnight negotiation, no security guard knocking.
+
+Some context if you're new to Southeast Asia: many hotels in Vietnam —
+especially the mid-range and international chains — either refuse
+unregistered overnight visitors outright or charge a per-guest joiner fee
+(typically $10–20, sometimes more after hours). Guest-friendly hotels take
+the opposite approach: register the guest, respect everyone's privacy, done.
+It's a small policy detail that completely changes the shape of your stay in
+this part of the world, and it's the number-one question I'd ask before
+booking any hotel in Saigon.
+
+Policies can always change, so confirm at check-in if this matters to your
+trip. But as of my stay, this was among the smoothest guest policies I've
+come across in the city.
 
 ## The honest fine print
 

@@ -3,9 +3,11 @@
 {{- $name := .Get "name" | default "this hotel" -}}
 {{- $buttons := slice -}}
 {{- range $key, $cfg := hugo.Data.affiliates -}}
-  {{- if and $cfg (or $cfg.url $cfg.id) -}}
+  {{- if and $cfg (or $cfg.url $cfg.id (index $.Params $key)) -}}
     {{- $url := "" -}}
-    {{- if $cfg.url -}}
+    {{- if index $.Params $key -}}
+      {{- $url = index $.Params $key -}}
+    {{- else if $cfg.url -}}
       {{- $url = $cfg.url -}}
     {{- else -}}
       {{- $url = printf "https://www.booking.com/hotel/%s/%s.html" $country $slug -}}
