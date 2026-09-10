@@ -15,15 +15,27 @@
   {{- end -}}
 {{- end -}}
 {{- if gt (len $buttons) 0 -}}
-  <div class="card bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30 my-8 text-center">
+  <div class="card book-card shadow-xl my-8 text-center">
     <div class="card-body">
       <div class="card-title justify-center">Ready to book?</div>
       <p class="text-base-content/60">Live prices and availability for {{ $name }}.</p>
       <div class="card-actions justify-center">
         {{- range $buttons -}}
-        <a class="btn" href="{{ .url }}" target="_blank" rel="sponsored nofollow noopener">{{ .label }}</a>
+        <a class="btn book-btn" href="{{ .url }}" target="_blank" rel="sponsored nofollow noopener">{{ .label }}</a>
         {{- end -}}
       </div>
     </div>
   </div>
+  {{- with index $buttons 0 -}}
+  <a id="book-float" class="book-float" href="{{ .url }}" target="_blank" rel="sponsored nofollow noopener" aria-label="Book {{ $name }}">🛎️ Book now</a>
+  <script>
+  (function () {
+    var el = document.getElementById('book-float');
+    if (!el) return;
+    var toggle = function () { el.classList.toggle('show', window.scrollY > 480); };
+    window.addEventListener('scroll', toggle, { passive: true });
+    toggle();
+  })();
+  </script>
+  {{- end -}}
 {{- end -}}

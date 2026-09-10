@@ -1,0 +1,74 @@
+/* Booking CTA — prominent card + floating button.
+   Loaded via params.advanced.customCSS after the theme stylesheet. */
+
+.book-card {
+  border: 1px solid rgba(16, 185, 129, 0.55);
+  background:
+    linear-gradient(135deg, rgba(16, 185, 129, 0.16), rgba(245, 158, 11, 0.10)),
+    #ffffff;
+}
+
+.dark .book-card {
+  border-color: rgba(16, 185, 129, 0.45);
+  background:
+    linear-gradient(135deg, rgba(16, 185, 129, 0.18), rgba(245, 158, 11, 0.10)),
+    #1c2b26;
+}
+
+.book-card .card-title {
+  font-size: 1.3rem;
+}
+
+.book-btn {
+  background: linear-gradient(135deg, #047857, #059669);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  padding-inline: 1.4rem;
+  box-shadow: 0 6px 16px rgba(5, 150, 105, 0.35);
+}
+
+.book-btn:hover {
+  filter: brightness(1.08);
+  color: #fff;
+}
+
+/* Floating booking pill — shown after the reader scrolls past the intro */
+
+.book-float {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 40;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.7rem 1.1rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #047857, #059669);
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1;
+  text-decoration: none;
+  box-shadow: 0 10px 24px rgba(4, 120, 87, 0.4);
+  opacity: 0;
+  transform: translateY(14px);
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.dark .book-float {
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.55);
+}
+
+.book-float.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.book-float:hover {
+  filter: brightness(1.08);
+  color: #fff;
+}

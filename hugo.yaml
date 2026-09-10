@@ -31,6 +31,9 @@ params:
   showSummaryCoverInPost: true
   showPrevNextPost: true
   customSyntaxHighlighting: true
+  advanced:
+    customCSS:
+      - css/custom.css
 
 markup:
   goldmark:
