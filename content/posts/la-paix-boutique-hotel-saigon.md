@@ -17,11 +17,6 @@ actually recommend staying, from the point of view of someone who cares about
 three things — location, honest value, and a room you can work in. First up:
 a small boutique hotel in Saigon's District 1.
 
-One housekeeping note before anything else: you may find this property listed
-under its old name, **Bel Ami** — it has since been rebranded as **La Paix
-Sài Gòn Boutique Hotel**. Same building, same team, new name. Don't let the
-two names confuse you when searching.
-
 ## The location is the whole point
 
 District 1 is where most people want to be in Ho Chi Minh City, and La Paix
