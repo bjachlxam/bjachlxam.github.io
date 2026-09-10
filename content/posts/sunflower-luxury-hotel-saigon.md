@@ -4,6 +4,7 @@ date: 2026-09-10T18:00:00+07:00
 draft: false
 description: "Sunflower Luxury Hotel is a guest-friendly hotel in District 1, Ho Chi Minh City — jacuzzi rooms, free breakfast, and a 5-minute walk to Saigon's Japan Town. My honest review after staying."
 cover: /images/sunflower-cover.jpg
+images: [/images/sunflower-cover.jpg]
 categories:
   - Hotel Reviews
 tags:

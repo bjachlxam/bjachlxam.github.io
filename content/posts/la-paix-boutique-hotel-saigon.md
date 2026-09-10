@@ -4,6 +4,7 @@ date: 2026-09-09T20:00:00+07:00
 draft: false
 description: "La Paix Boutique Hotel is a guest-friendly hotel in Ho Chi Minh City's District 1 — invite a guest without joiner-fee drama, walk to everything, and pay well under chain-hotel prices. My honest review."
 cover: /images/la-paix-room.jpg
+images: [/images/la-paix-room.jpg]
 categories:
   - Hotel Reviews
 tags:

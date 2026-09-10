@@ -4,6 +4,7 @@ date: 2026-09-10T12:00:00+09:00
 draft: false
 description: "Comfort Hotel ERA Kyoto Toji: rooms that are genuinely big by Japanese standards, a 3-minute walk from Toji Station, one stop from Kyoto Station — and a quiet street with izakayas and convenience stores around the corner."
 cover: /images/comfort-era-kyoto-cover.jpg
+images: [/images/comfort-era-kyoto-cover.jpg]
 categories:
   - Hotel Reviews
 tags:
