@@ -65,7 +65,7 @@ edible within reach.
 
 ## Book it
 
-{{< book hotel="comfort-hotel-era-kyoto-toji" name="Comfort Hotel ERA Kyoto Toji" klook="https://klook.tpx.li/rZeESjdK" >}}
+{{< book hotel="comfort-hotel-era-kyoto-toji" name="Comfort Hotel ERA Kyoto Toji" klook="https://klook.tpx.li/pFnxRhKg" >}}
 
 If you book through that button, it may earn the blog a small commission at
 no extra cost to you — the coffee fund appreciates you.
