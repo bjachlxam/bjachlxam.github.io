@@ -3,7 +3,7 @@ title: "Where to Stay in Saigon: La Paix Boutique Hotel, District 1"
 date: 2026-09-09T20:00:00+07:00
 draft: false
 description: "A boutique hotel in the middle of Saigon's District 1 — walkable to everything, quiet at night, and priced well under the international chains. Here's why it's my default recommendation."
-cover: /images/la-paix-cover.jpg
+cover: /images/la-paix-room.jpg
 categories:
   - Hotel Reviews
 tags:
@@ -33,9 +33,15 @@ for a fee if you'd rather have someone waiting with a sign.
 ## The rooms: renovated, quiet, and workable
 
 The rooms were renovated recently, and it shows: big comfortable beds, hot
-water that actually stays hot, decent pressure, and clean lines throughout.
-You get a choice of Superior Double, Superior Twin, Deluxe Double with an
-extra-large bed, or a Family Room if you're traveling as a small group.
+water that actually stays hot, and clean lines throughout. You get a choice of
+Superior Double, Superior Twin, Deluxe Double with an extra-large bed, or a
+Family Room if you're traveling as a small group.
+
+I stayed in the Deluxe Double — this is the room type, possibly the very room:
+
+![The Deluxe Double room at La Paix Sài Gòn](/images/la-paix-room.jpg)
+*The Deluxe Double at La Paix Sài Gòn. Photo from the hotel's official
+Booking.com listing.*
 
 For the working nomads: rooms come with a **work desk, a sofa, air
 conditioning, and free WiFi**, plus windows that open onto the city. It's not
