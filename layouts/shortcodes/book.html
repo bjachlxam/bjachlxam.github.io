@@ -1,0 +1,19 @@
+{{- $platform := .Get "platform" | default "booking" -}}
+{{- $cfg := index hugo.Data.affiliates $platform -}}
+{{- $slug := .Get "hotel" -}}
+{{- $country := .Get "country" | default "vn" -}}
+{{- $name := .Get "name" | default "this hotel" -}}
+{{- $url := printf "https://www.booking.com/hotel/%s/%s.html" $country $slug -}}
+{{- with $cfg -}}
+  {{- with .id -}}{{- $url = printf "%s?%s" $url . -}}{{- end -}}
+  {{- $label := printf "Check prices on %s" .name -}}
+  <div class="card bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30 my-8 text-center">
+    <div class="card-body">
+      <div class="card-title justify-center">Ready to book?</div>
+      <p class="text-base-content/60">Live prices and availability for {{ $name }} on {{ .name }}.</p>
+      <div class="card-actions justify-center">
+        <a class="btn" href="{{ $url }}" target="_blank" rel="sponsored nofollow noopener">{{ $label }}</a>
+      </div>
+    </div>
+  </div>
+{{- end -}}

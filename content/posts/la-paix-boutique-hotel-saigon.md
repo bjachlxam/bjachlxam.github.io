@@ -71,11 +71,11 @@ I'm happy about.
 
 ## Book it
 
-You can check availability and prices on
-[Booking.com](https://www.booking.com/hotel/vn/bel-ami-quan-1.html?aid=311984).
-That's an affiliate link — it costs you nothing extra, and it helps keep this
-blog running (which, as regular readers know, costs exactly $0 in
-infrastructure, but not in coffee).
+{{< book hotel="bel-ami-quan-1" name="La Paix Sài Gòn Boutique Hotel" >}}
+
+If you book through that button, it may earn the blog a small commission at
+no extra cost to you — it's how this blog stays funded. The infrastructure
+costs exactly $0, as regular readers know; the coffee does not.
 
 **Verdict:** if it's your first time in Saigon and you want a clean, quiet,
 renovated room in the middle of everything without paying chain-hotel prices,

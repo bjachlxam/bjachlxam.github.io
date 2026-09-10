@@ -1,0 +1,19 @@
+# Affiliate tracking IDs, one section per platform.
+#
+# Paste your tracking ID into "id" once approved — every booking link on
+# the site picks it up automatically, no other edits needed anywhere.
+# Format: raw query string, e.g. id = "aid=1234567"
+# Leave id = "" to link without tracking parameters.
+
+[booking]
+id = ""
+name = "Booking.com"
+
+# Future platforms (examples — uncomment when approved):
+# [agoda]
+# id = ""
+# name = "Agoda"
+#
+# [trip]
+# id = ""
+# name = "Trip.com"
