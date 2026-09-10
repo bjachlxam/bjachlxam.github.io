@@ -33,7 +33,7 @@ params:
   customSyntaxHighlighting: true
   advanced:
     customCSS:
-      - css/custom.css
+      - css/custom.css?v=2
 
 markup:
   goldmark:
