@@ -32,6 +32,10 @@
   (function () {
     var el = document.getElementById('book-float');
     if (!el) return;
+    // The theme's flip container uses 3D transforms, which break position:fixed
+    // for descendants — reparent the pill to <body> so it tracks the viewport.
+    el.parentNode.removeChild(el);
+    document.body.appendChild(el);
     var toggle = function () { el.classList.toggle('show', window.scrollY > 480); };
     window.addEventListener('scroll', toggle, { passive: true });
     toggle();

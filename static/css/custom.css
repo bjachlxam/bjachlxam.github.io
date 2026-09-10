@@ -38,7 +38,7 @@
 .book-float {
   position: fixed;
   right: 1.25rem;
-  bottom: 1.25rem;
+  bottom: 4.75rem; /* sits above the theme's floating theme-switcher */
   z-index: 40;
   display: inline-flex;
   align-items: center;
