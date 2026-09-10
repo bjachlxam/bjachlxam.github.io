@@ -1,6 +1,6 @@
 ---
 title: "Where to Stay in Saigon: La Paix Boutique Hotel, District 1"
-date: 2026-09-10T10:00:00+07:00
+date: 2026-09-09T20:00:00+07:00
 draft: false
 description: "A boutique hotel in the middle of Saigon's District 1 — walkable to everything, quiet at night, and priced well under the international chains. Here's why it's my default recommendation."
 cover: /images/la-paix-cover.jpg
