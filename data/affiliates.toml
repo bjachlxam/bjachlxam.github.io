@@ -1,19 +1,26 @@
-# Affiliate tracking IDs, one section per platform.
+# Affiliate platforms, one section per platform.
 #
-# Paste your tracking ID into "id" once approved — every booking link on
-# the site picks it up automatically, no other edits needed anywhere.
-# Format: raw query string, e.g. id = "aid=1234567"
-# Leave id = "" to link without tracking parameters.
+# Two ways to configure a platform:
+#   url = "..."   — a full pre-generated tracking link (e.g. Travelpayouts shortlink)
+#   id  = "..."   — a raw tracking query string appended to an auto-built
+#                   Booking.com hotel URL, e.g. id = "aid=1234567"
+#
+# A platform section only renders a button when it has a link (url or id).
+# Everything updates site-wide automatically — no post edits needed.
 
 [booking]
 id = ""
 name = "Booking.com"
 
-# Future platforms (examples — uncomment when approved):
-# [agoda]
-# id = ""
-# name = "Agoda"
+[klook]
+url = "https://klook.tpx.li/JRaLldcE"
+name = "Klook"
+
+# Future platforms — uncomment and fill in when approved:
+# [hotellook]
+# url = ""
+# name = "Hotellook"
 #
-# [trip]
-# id = ""
-# name = "Trip.com"
+# [agoda]
+# url = ""
+# name = "Agoda"
