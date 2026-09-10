@@ -1,0 +1,79 @@
+{{ with site.Params.favicon }}
+  {{ if hasPrefix . "<link" }}
+    {{ . | safeHTML }}
+  {{ else }}
+    <link href="{{ . | relURL }}" rel="icon" type="image/x-icon" />
+  {{ end }}
+{{ end }}
+
+<link rel="canonical" href="{{ .Permalink }}" />
+
+{{ if eq .Type "posts" }}
+<!-- Page Author & Description -->
+<meta name="author" content="{{ if isset .Params "author" }}{{ .Params.author }}{{ else }}{{ site.Params.author }}{{ end }}" />
+<meta name="description" content="{{ (or .Description .Summary) | plainify }}" />
+
+<!-- Keywords -->
+{{- $keywords := slice }}
+{{- with .Keywords }}
+  {{- $keywords = . }}
+{{- else }}
+  {{- range .GetTerms "tags" }}
+    {{- $keywords = $keywords | append .Title }}
+  {{- else }}
+    {{- range $taxonomy, $_ := site.Taxonomies }}
+      {{- range $.GetTerms $taxonomy }}
+        {{- $keywords = $keywords | append .Title }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+<meta name="keywords" content="{{ delimit $keywords `,` }}">
+{{ else }}
+<!-- Site Author & Description -->
+<meta name="author" content="{{ site.Params.author }}" />
+<meta name="description" content="{{ site.Params.description | plainify }}" />
+{{ end }}
+
+<!-- Site Generator -->
+{{ hugo.Generator }}
+
+<!-- Open Graph -->
+{{ template "_internal/opengraph.html" . }}
+
+<!-- Twitter Cards -->
+{{ template "_internal/twitter_cards.html" . }}
+
+{{ $outputCss := resources.Get "css/output.css" }}
+{{ if hugo.IsProduction }}
+  {{ $outputCss = $outputCss | minify }}
+{{ end }}
+<link rel="stylesheet" href="{{ $outputCss.RelPermalink }}" />
+
+{{ if or site.Params.backgroundImage site.Params.backgroundImageDark }}
+<style>
+{{ if site.Params.backgroundImage }}
+#dream-global-bg {
+  background-image: url({{ site.Params.backgroundImage | relURL }});
+}
+{{ end }}
+
+{{ if site.Params.backgroundImageDark }}
+html.dark #dream-global-bg {
+  background-image: url({{ site.Params.backgroundImageDark | relURL }});
+}
+{{ end }}
+</style>
+{{ end }}
+
+<!-- BEGIN custom (Travelpayouts verification) — this file overrides themes/hugo-theme-dream/layouts/partials/head.html; re-diff when upgrading the theme -->
+<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+  (function () {
+      var script = document.createElement("script");
+      script.async = 1;
+      script.setAttribute("data-cmp-ab","2");
+      script.src = 'https://emrld.ltd/NTcyMjc5.js?t=572279';
+      document.head.appendChild(script);
+  })();
+</script>
+<!-- END custom -->
