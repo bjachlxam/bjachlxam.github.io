@@ -31,6 +31,13 @@ params:
   showSummaryCoverInPost: true
   showPrevNextPost: true
   customSyntaxHighlighting: true
+  # Replace the built-in flip-triggering "about" nav item with a normal link
+  # to /about/ (avatar click still triggers the flip).
+  reorderNavItems: ["aboutpage", "search", "rss", "posts", "categories", "tags"]
+  navItems:
+    aboutpage:
+      title: "About"
+      href: "/about/"
   advanced:
     customCSS:
       - css/custom.css?v=2
