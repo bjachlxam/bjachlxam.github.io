@@ -33,6 +33,9 @@ nightclub-adjacent hotel prices. Fair warning, the obvious one: this area is
 loud and lively until late. Light sleepers should pack earplugs or request a
 room facing away from the street.
 
+![Nana Plaza at night, steps from Majestic Suites](/images/majestic-suites-02.jpg)
+*The Nana skyline after dark — this is how close the hotel is.*
+
 ## The rooms: clean, equipped, honest
 
 Majestic Suites is a budget hotel that doesn't feel like a punishment.
@@ -44,9 +47,6 @@ bar, and room service if you don't feel like facing Soi 4 at midnight.
 Breakfast is available for a small surcharge (served 6:30–10:30). Rates
 typically run from about **US$33 a night** depending on platform and season —
 I've seen it lower on Klook.
-
-![Majestic Suites — room](/images/majestic-suites-02.jpg)
-*Room interior at Majestic Suites.*
 
 ## Guest friendly: the reason it made the list
 
