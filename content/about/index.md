@@ -19,4 +19,6 @@ wifi.
 If any of that sounds familiar, come along. The road is long, but it's better
 with company.
 
-You can reach me through [GitHub](https://github.com/bjachlxam).
+You can reach me through [GitHub](https://github.com/bjachlxam). If the guides
+saved you money, you can also [buy me a coffee](https://buymeacoffee.com/nightlaowang)
+— though honestly, booking hotels through the links already does that job.

@@ -1,4 +1,10 @@
 [[socials]]
+  href = "https://buymeacoffee.com/nightlaowang"
+  title = "Buy me a coffee"
+  icon = "cafe"
+  target = "_blank"
+
+[[socials]]
   href = "https://github.com/bjachlxam"
   title = "GitHub"
   icon = "logo-github"
