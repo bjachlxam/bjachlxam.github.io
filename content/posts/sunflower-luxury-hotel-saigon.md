@@ -66,8 +66,9 @@ cost to you — it keeps the lights on (all zero of them; the site is static).
 
 ## Verdict
 
-If La Paix is the quiet, refined option near the Opera House, **Sunflower
-Luxury is its livelier cousin in Japan Town**: guest friendly, jacuzzi in the
+If [La Paix Boutique Hotel](/posts/la-paix-boutique-hotel-saigon/) is the
+quiet, refined option near the Opera House, **Sunflower Luxury is its
+livelier cousin in Japan Town**: guest friendly, jacuzzi in the
 room, breakfast included, and the most concentrated strip of food and
 nightlife in Saigon out the front door. For many travelers that combination
 will be the obvious pick. I'll keep this post updated if anything changes.
