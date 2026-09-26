@@ -38,18 +38,21 @@ first question I answer in every review on this site.
 |---|---|---|---|---|
 | [La Paix Boutique Hotel](/posts/la-paix-boutique-hotel-saigon/) | Ho Chi Minh City, District 1 | varies | Quiet and refined, steps from the Opera House | Read → |
 | [Sunflower Luxury Hotel](/posts/sunflower-luxury-hotel-saigon/) | Ho Chi Minh City, District 1 | ~$68 | Jacuzzi rooms, Japan Town on the doorstep | Read → |
+| [The White Hotel](/posts/the-white-hotel-saigon/) | Ho Chi Minh City, District 1 | budget | Best breakfast buffet, Japan Town adjacent | Read → |
 | [Sakura Sky Residence](/posts/sakura-sky-residence-bangkok/) | Bangkok, Sukhumvit Soi 33 | ~$33 | Apartment-style space, city views, rooftop bar | Read → |
 | [Majestic Suites](/posts/majestic-suites-bangkok/) | Bangkok, Sukhumvit Soi 4 | ~$33 | One minute from Nana Plaza, 2 minutes from BTS | Read → |
 
-### Ho Chi Minh City — two District 1 options with different personalities
+### Ho Chi Minh City — three District 1 options with different personalities
 
-Both of my Saigon picks sit in District 1, but they serve different moods.
-[La Paix](/posts/la-paix-boutique-hotel-saigon/) is the refined one: quiet
-street near the Opera House, smooth guest registration, and a jacuzzi-free
-but polished room. [Sunflower](/posts/sunflower-luxury-hotel-saigon/) is the
-livelier pick on the Japan Town border — jacuzzi in most rooms, breakfast
-included, and the densest strip of food and nightlife in the city outside
-the door.
+All three of my Saigon picks sit in District 1, but they serve different
+moods. [La Paix](/posts/la-paix-boutique-hotel-saigon/) is the refined one:
+quiet street near the Opera House, smooth guest registration, and a polished
+room. [Sunflower](/posts/sunflower-luxury-hotel-saigon/) is the livelier pick
+on the Japan Town border — jacuzzi in most rooms, breakfast included, and the
+densest strip of food and nightlife in the city outside the door.
+[The White Hotel](/posts/the-white-hotel-saigon/) is the value play in the
+same block — characterful rooms and the best breakfast buffet of the three,
+usually at the lowest rate.
 
 ### Bangkok — two ends of the same Sukhumvit coin
 
