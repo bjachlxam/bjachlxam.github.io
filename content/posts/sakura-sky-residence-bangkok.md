@@ -1,6 +1,6 @@
 ---
 title: "Sakura Sky Residence Bangkok: A Guest-Friendly Apartment Stay in Sukhumvit"
-date: 2026-09-10T19:30:00+07:00
+date: 2026-09-11T14:00:00+07:00
 draft: false
 description: "Sakura Sky Residence is a guest-friendly apartment-style hotel on Sukhumvit Soi 33, Bangkok — city-view suites from around US$33, a 10-minute walk to BTS Phrom Phong, and zero joiner-fee drama."
 cover: /images/sakura-sky-01.jpg

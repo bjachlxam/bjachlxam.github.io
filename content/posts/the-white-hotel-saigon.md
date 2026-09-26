@@ -1,6 +1,6 @@
 ---
 title: "The White Hotel Review: Guest-Friendly Budget Stay Near Saigon's Japan Town"
-date: 2026-09-10T19:00:00+07:00
+date: 2026-09-26T19:00:00+07:00
 draft: false
 description: "The White Hotel is a guest-friendly 3-star hotel on Thai Van Lung Street, District 1 — minutes from Saigon's Japan Town, with a proper breakfast buffet and budget rates. Honest review after staying."
 cover: /images/white-hotel-01.jpg
