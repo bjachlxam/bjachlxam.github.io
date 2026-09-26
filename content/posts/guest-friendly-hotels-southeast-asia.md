@@ -30,7 +30,11 @@ registers their ID at the front desk and heads up with you. No fees, no
 negotiation, no drama.
 
 It's the single most misunderstood booking criterion in the region, and the
-first question I answer in every review on this site.
+first question I answer in every review on this site. Two examples from the
+list below: [Majestic Suites](/posts/majestic-suites-bangkok/) is a guest
+friendly hotel in Bangkok's Sukhumvit, and
+[La Paix Boutique Hotel](/posts/la-paix-boutique-hotel-saigon/) is a guest
+friendly boutique hotel in Saigon.
 
 ## The tested list
 

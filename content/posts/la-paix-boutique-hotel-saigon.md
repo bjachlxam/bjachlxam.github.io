@@ -2,7 +2,7 @@
 title: "Guest-Friendly Hotel in Saigon: La Paix Boutique Hotel, District 1"
 date: 2026-09-09T20:00:00+07:00
 draft: false
-description: "La Paix Boutique Hotel is a guest-friendly hotel in Ho Chi Minh City's District 1 — invite a guest without joiner-fee drama, walk to everything, and pay well under chain-hotel prices. My honest review."
+description: "La Paix Boutique Hotel is a guest-friendly boutique hotel in Saigon (District 1, Ho Chi Minh City) — invite a guest without joiner-fee drama, walk to everything, and pay well under chain-hotel prices. My honest review."
 cover: /images/la-paix-room.jpg
 images: [/images/la-paix-room.jpg]
 categories:

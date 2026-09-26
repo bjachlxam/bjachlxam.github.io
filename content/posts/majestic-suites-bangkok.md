@@ -2,7 +2,7 @@
 title: "Majestic Suites Bangkok: Guest-Friendly Budget Rooms One Minute from Nana Plaza"
 date: 2026-09-10T20:00:00+07:00
 draft: false
-description: "Majestic Suites is a guest-friendly budget hotel on Sukhumvit Soi 4, Bangkok — one minute's walk from Nana Plaza and BTS Nana, with clean rooms from around US$33 and an 8.3/10 rating."
+description: "Guest friendly hotel in Bangkok on Sukhumvit Soi 4 — Majestic Suites sits one minute from Nana Plaza and BTS Nana: clean rooms from ~US$33, rated 8.3/10. Honest first-hand review."
 cover: /images/majestic-suites-01.jpg
 images: ["/images/majestic-suites-01.jpg", "/images/majestic-suites-02.jpg"]
 categories:
